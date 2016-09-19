@@ -1,0 +1,16 @@
+﻿Der Buildvorgang wurde am 21.07.2016 18:07:16 gestartet.
+     1>Projekt "C:\A\C_Programme\VC++\SoundTest\SoundTest\SoundTest.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\a\c_programme\vc++\soundtest\soundtest\main.cpp(140): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+     1>c:\a\c_programme\vc++\soundtest\soundtest\main.cpp(141): warning C4244: "=": Konvertierung von "float" in "int", möglicher Datenverlust
+     1>c:\a\c_programme\vc++\soundtest\soundtest\main.cpp(148): warning C4244: "+=": Konvertierung von "double" in "float", möglicher Datenverlust
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\A\C_Programme\VC++\SoundTest\Debug\SoundTest.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\A\C_Programme\VC++\SoundTest\Debug\SoundTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\A\C_Programme\VC++\SoundTest\Debug\SoundTest.lib" /MACHINE:X86 Debug\main.obj
+         SoundTest.vcxproj -> C:\A\C_Programme\VC++\SoundTest\Debug\SoundTest.exe
+     1>Die Erstellung von Projekt "C:\A\C_Programme\VC++\SoundTest\SoundTest\SoundTest.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.83
